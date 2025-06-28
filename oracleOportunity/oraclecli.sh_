@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# === CONFIGURA TU USUARIO Y CLAVE ORACLE AQUÍ ===
+ORACLE_USER="tienda"
+ORACLE_PASS="tiendapass"
+ORACLE_HOST="localhost"
+ORACLE_PORT="1521"
+ORACLE_PDB="XEPDB1"  # puede ser también "FREEPDB1"
+
+# === RUTA LIBRERÍAS INSTANT CLIENT ===
+INSTANT_CLIENT_LIB="/usr/lib/oracle/21/client64/lib"
+
+# === Verificar que usql está instalado ===
+if ! command -v usql &> /dev/null; then
+  echo "❌ usql no está instalado. Ejecuta: yay -S usql-bin"
+  exit 1
+fi
+
+# === Verificar que Instant Client está instalado ===
+if [ ! -d "$INSTANT_CLIENT_LIB" ]; then
+  echo "❌ Oracle Instant Client no encontrado en: $INSTANT_CLIENT_LIB"
+  echo "💡 Instálalo con: yay -S oracle-instantclient-basic oracle-instantclient-sdk"
+  exit 1
+fi
+
+# === Exportar LD_LIBRARY_PATH para Oracle ===
+export LD_LIBRARY_PATH="$INSTANT_CLIENT_LIB:$LD_LIBRARY_PATH"
+
+# === Ejecutar usql con conexión a Oracle ===
+echo "🚀 Conectando a Oracle como $ORACLE_USER@$ORACLE_PDB ..."
+usql oracle://$ORACLE_USER:$ORACLE_PASS@$ORACLE_HOST:$ORACLE_PORT/$ORACLE_PDB
