@@ -1,0 +1,14 @@
+1) 
+Sobre la base de datos comercialdonmarco ejecutar los scripts:
+- Ejecutar los scripts db/1.0.0.sql
+- Ejecutar los scripts db/1.0.1.sql
+** Si falla, eliminar la tabla y volverlas a crear con los scripts
+
+2)
+Completar el eliminar de la tabla de Productos: JSP y Java
+
+3)
+- Crear el mantenimiento para la tabla tb_product_type: JSP y Clases Java
+- Añadir al mantenimiento de Productos la catengoría de productos:
+  a) En el grid de Productos añadir columna Tipo
+  b) En el form de Productos añadir un combo Tipo 

@@ -1,0 +1,78 @@
+@startuml
+allowmixing
+package "com.limatisoft" {
+	class MainApplication
+}
+
+package "com.limatisoft.base.ui.console" {
+	class MyConsole
+	class MainMenuConsole
+	class ProductMenuConsole
+	class AddProductConsole
+	class EditProductConsole
+	class DeleteProductConsole
+	class ProductReportConsole
+}
+
+note left of MyConsole
+  MyConsole es usada por:
+  - MainMenuConsole
+  - ProductMenuConsole
+  - AddProductConsole
+  - EditProductConsole
+  - DeleteProductConsole
+  - ProductReportConsole
+end note
+    
+package "com.limatisoft.base.service" {
+	class ProductCommandService{
+		+ save(Product): void
+	    + update(Product): void
+	    + delete(Product): void
+	}
+	class ProductQueryService {
+    	+ findAll(): List<Product>
+    	+ findByCode(String): Product
+	}
+}
+
+package "com.limatisoft.base.model" {
+	class Product {
+	    - code: String
+	    - name: String
+	    - salesPrice: java.math.BigDecimal
+	     {method} +getters y setters para todos los atributos
+	}
+} 
+package "com.limatisoft.base.repository" {
+	
+	package "com.limatisoft.base.repository.file" {
+		class ProductFileRepository{
+			+ save(Product): void
+			+ update(Product): void
+			+ delete(Product): void
+		    + findByCode(String): Product
+		    + findAll(): List<Product>
+		}
+	}
+}
+
+package "com.limatisoft.config" {
+	class FilePaths
+}
+ 
+MainApplication o-->  MainMenuConsole 
+MainMenuConsole o--> ProductMenuConsole
+ProductMenuConsole *--> AddProductConsole
+ProductMenuConsole *--> EditProductConsole
+ProductMenuConsole *--> DeleteProductConsole
+ProductMenuConsole *--> ProductReportConsole
+AddProductConsole o--> ProductCommandService
+EditProductConsole o--> ProductCommandService
+
+DeleteProductConsole o--> ProductCommandService
+ProductReportConsole o--> ProductQueryService
+ProductCommandService --> ProductFileRepository
+ProductQueryService --> ProductFileRepository
+ProductFileRepository --> FilePaths
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+start
+:User selects "Delete Product";
+:Prompt for Product ID;
+:Enter Product ID;
+:Search Product in File;
+if (Product Found?) then (yes)
+    :Delete Product from File;
+    :Display Success Message;
+else (no)
+    :Display Error Message;
+endif
+stop
+@enduml

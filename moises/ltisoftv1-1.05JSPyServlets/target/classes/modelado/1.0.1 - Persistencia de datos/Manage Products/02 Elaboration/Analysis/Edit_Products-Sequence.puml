@@ -1,0 +1,19 @@
+@startuml
+actor User
+participant MainMenuConsole
+participant ProductQueryService
+participant ProductCommandService
+participant ProductFileRepository
+
+User -> MainMenuConsole : Select "Edit Product"
+MainMenuConsole -> ProductQueryService : Search Product by ID
+ProductQueryService -> ProductFileRepository : Retrieve Product from File
+ProductFileRepository --> ProductQueryService : Product Data
+ProductQueryService --> MainMenuConsole : Display Product Data
+
+User -> MainMenuConsole : Update Product Details
+MainMenuConsole -> ProductCommandService : Save Updated Product
+ProductCommandService -> ProductFileRepository : Write Product to File
+ProductFileRepository --> ProductCommandService : Confirmation
+ProductCommandService --> MainMenuConsole : Display Success Message
+@enduml

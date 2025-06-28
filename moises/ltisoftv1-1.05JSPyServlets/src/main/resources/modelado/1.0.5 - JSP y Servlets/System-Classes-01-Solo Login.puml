@@ -1,0 +1,216 @@
+@startuml
+allowmixing
+package "com.limatisoft" {
+	class MainApplication 
+	class ApplicationContext
+}
+
+package "com.limatisoft.base.ui.console" {
+	class MyConsole
+	class MainMenuConsole
+	class ProductMenuConsole
+	class AddProductConsole
+	class EditProductConsole
+	class DeleteProductConsole
+	class ProductReportConsole
+}
+
+package "com.limatisoft.security.web" {
+	class AuthServlet {
+		+ doPost(request: HttpServletRequest, response: HttpServletResponse): void
+	}
+	artifact login.jsp {
+	}
+	artifact welcome.jsp {
+	}
+	
+	login.jsp --> AuthServlet : "POST /auth"
+	AuthServlet --> welcome.jsp : "<<forward>>"
+}
+
+package "com.limatisoft.gui.swing" {
+	class MainMenuGUI
+	class WelcomePanel
+}
+
+
+package "com.limatisoft.gui.swing.components" {
+	class FormattedDecimalField 
+	class FormToolbarPanel
+	class TableToolbarPanel
+	class ToastDialog 
+}
+
+package "com.limatisoft.base.ui.gui" {
+	class ProductFormDialog
+	class ProductFormPanel
+	class ProductFormToolbarPanel extends FormToolbarPanel
+	class ProductManagementPanel
+	interface ProductSaveListener
+	class ProductTablePanel{
+	}
+	class ProductTableModel{
+	}
+	class ProductTableToolbarPanel extends TableToolbarPanel
+}
+
+note left of MyConsole
+  MyConsole es usada por:
+  - MainMenuConsole
+  - ProductMenuConsole
+  - AddProductConsole
+  - EditProductConsole
+  - DeleteProductConsole
+  - ProductReportConsole
+end note
+
+note as N1MainApplicationApplicationContext
+	MainApplication utiliza ApplicationContext para obtener
+	la referencia de MainMenuConsole y con ello el resto de referencias.
+end note
+    
+package "com.limatisoft.base.service" {
+	class ProductCommandService{
+		+ save(Product): void
+	    + update(Product): void
+	    + delete(Product): void
+	    + saveUniqueProduct: void
+	    + assertUniqueCode(Product): void
+	}
+	class ProductQueryService {
+    	+ findAll(): List<Product>
+    	+ findByCode(String): Product
+	}
+	
+}
+
+package "com.limatisoft.security.service" {
+	class AuthService {
+		+ authenticate(login: String, password: String): User
+	}
+	
+	class AuthorizationService {
+		+ checkPermission(userId: Long, permission: String): boolean
+	}
+}
+
+package "com.limatisoft.base.model" {
+	class Product {
+	    - id: Long 
+	    - code: String
+	    - name: String
+	    - salesPrice: java.math.BigDecimal
+	     {method} +getters y setters para todos los atributos
+	}
+} 
+
+package "com.limatisoft.security.model" {
+	class User {
+	    - id: Long 
+	    - login: String
+	    - password: String
+	    - isActive: Boolean
+	     {method} +getters y setters para todos los atributos
+	}
+} 
+
+package "com.limatisoft.base.repository" {
+	interface ProductRepository{
+		+ save(Product): void
+		+ update(Product): void
+		+ delete(Product): void
+	    + findByCode(String): Product
+	    + findByCodeAndIdNot(String,Long): Product
+	    + findAll(): List<Product>
+	}
+
+	package "com.limatisoft.base.repository.file" {
+		class ProductFileRepository implements ProductRepository{
+			+ save(Product): void
+			+ update(Product): void
+			+ delete(Product): void
+		    + findByCode(String): Product
+		    + findByCodeAndIdNot(String,Long): Product
+		    + findAll(): List<Product>
+		}
+	}
+	
+	package "com.limatisoft.base.repository.jdbc" {
+		class ProductJdbcRepository implements ProductRepository{
+			+ save(Product): void
+			+ update(Product): void
+			+ delete(Product): void
+		    + findByCode(String): Product
+		    + findByCodeAndIdNot(String,Long): Product
+		    + findAll(): List<Product>
+		}
+	}
+}
+
+
+package "com.limatisoft.security.repository" {
+	interface AuthRepository {
+		+ findByLoginAndPassword(login: String, password: String): User
+	}
+	
+	interface AuthorizationRepository {
+		+ getPermissionsByUserId(userId: Long): List<String>
+		+ hasPermission(userId: Long, permission: String): boolean
+	}
+
+	package "com.limatisoft.security.repository.jdbc" {
+		class AuthJdbcRepository implements AuthRepository{
+			+ findByLoginAndPassword(login: String, password: String): User
+		}
+	}
+}
+
+package "com.limatisoft.db" {
+	class DatabaseConnectionManager 
+}
+
+package "com.limatisoft.config" {
+	class FilePaths 
+}
+ 
+database DB
+
+MainApplication o--> MainMenuConsole
+MainMenuConsole o--> ProductMenuConsole
+ProductMenuConsole *--> AddProductConsole
+ProductMenuConsole *--> EditProductConsole
+ProductMenuConsole *--> DeleteProductConsole
+ProductMenuConsole *--> ProductReportConsole
+AddProductConsole o--> ProductCommandService
+EditProductConsole o--> ProductCommandService
+
+DeleteProductConsole o--> ProductCommandService
+ProductReportConsole o--> ProductQueryService
+ProductCommandService --> ProductRepository
+ProductQueryService --> ProductRepository
+ProductJdbcRepository --> DatabaseConnectionManager
+ProductFileRepository --> FilePaths
+N1MainApplicationApplicationContext ..> MainApplication 
+N1MainApplicationApplicationContext ..> ApplicationContext
+
+MainApplication o--> MainMenuGUI
+MainMenuGUI o-- WelcomePanel
+MainMenuGUI o-- ProductManagementPanel
+ProductFormDialog *-- ProductFormPanel
+ProductFormDialog *-- ProductFormToolbarPanel
+ProductManagementPanel *-- ProductTablePanel
+ProductManagementPanel *-- ProductTableToolbarPanel
+ProductTablePanel *-- ProductTableModel
+ProductManagementPanel ..> "crea" ProductFormDialog
+
+ProductManagementPanel o--> ProductCommandService
+ProductManagementPanel o--> ProductQueryService
+ProductFormDialog o--> ProductCommandService
+
+AuthServlet o--> AuthService
+AuthService --> AuthRepository
+
+
+DatabaseConnectionManager --> DB 
+
+@enduml

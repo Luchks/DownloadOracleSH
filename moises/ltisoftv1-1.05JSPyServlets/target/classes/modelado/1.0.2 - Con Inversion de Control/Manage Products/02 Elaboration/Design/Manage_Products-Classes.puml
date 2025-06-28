@@ -1,0 +1,47 @@
+@startuml
+class MainApplication
+
+class MainMenuConsole
+        class AddProductConsole
+        class EditProductConsole
+        class DeleteProductConsole
+        class ProductReportConsole
+
+class ProductController
+class ProductFileRepository
+
+class Product {
+    - code: String
+    - name: String
+    - price: double
+    + getCode(): String
+    + getName(): String
+    + getPrice(): double
+    + setCode(String): void
+    + setName(String): void
+    + setPrice(double): void
+}
+
+class ProductController {
+    + addProduct(Product): void
+    + editProduct(String): void
+    + deleteProduct(String): void
+    + listProducts(): List<Product>
+}
+
+class FilePersistence {
+    + save(Product): void
+    + delete(String): void
+    + list(): List<Product>
+}
+
+class DatabasePersistence {
+    + save(Product): void
+    + delete(String): void
+    + list(): List<Product>
+}
+
+ProductController --> Product
+ProductController --> FilePersistence
+ProductController --> DatabasePersistence
+@enduml
