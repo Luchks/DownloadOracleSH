@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  app:
+    build: ./backend
+    depends_on:
+      - postgres
+      - mongo
+    environment:
+      POSTGRES_URL: jdbc:postgresql://postgres:5432/pdfdb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      MONGO_URL: mongodb://mongo:27017
+    volumes:
+      - ./sample.pdf:/app/sample.pdf
+    networks:
+      - backend-net
+
+  postgres:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: pdfdb
+    ports:
+      - "5432:5432"
+    networks:
+      - backend-net
+
+  mongo:
+    image: mongo:6
+    restart: always
+    ports:
+      - "27017:27017"
+    networks:
+      - backend-net
+
+networks:
+  backend-net:
+    driver: bridge

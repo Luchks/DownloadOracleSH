@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  extractor_java:
+    build: ./java
+    container_name: extractor_java
+    volumes:
+      - ./pdfs:/app/pdfs
+    working_dir: /app
+    command: ["java", "-jar", "target/pdf-extractor.jar"]
+
+  extractor_camelot:
+    image: python:3.11-slim
+    container_name: extractor_camelot
+    volumes:
+      - ./pdfs:/app/pdfs
+      - ./camelot:/app
+    working_dir: /app
+    command: >
+      bash -c "apt-get update &&
+               apt-get install -y ghostscript python3-opencv libgl1 &&
+               pip install camelot-py[cv] pandas ghostscript &&
+               python3 extract.py"

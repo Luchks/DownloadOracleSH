@@ -1,0 +1,8 @@
+
+version: '3'
+services:
+  lector_pdf_java:
+    build: .
+    volumes:
+      - ./salida_csv:/app/salida_csv
+    container_name: lector_pdf_java

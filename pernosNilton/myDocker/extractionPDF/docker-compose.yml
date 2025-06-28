@@ -1,0 +1,7 @@
+services:
+  pdf-extractor:
+    build: .
+    volumes:
+      - ./pdfs:/app/pdfs
+      - ./outputs:/app/outputs
+

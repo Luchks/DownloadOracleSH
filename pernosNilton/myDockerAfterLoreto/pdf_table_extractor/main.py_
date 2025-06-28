@@ -1,0 +1,12 @@
+import tabula
+import pandas as pd
+
+pdf_path = "data/archivo.pdf"
+
+print(f"Extrayendo tablas de {pdf_path}...")
+tables = tabula.read_pdf(pdf_path, pages='all', multiple_tables=True)
+
+for i, table in enumerate(tables):
+    output_path = f"data/tabla_{i+1}.csv"
+    table.to_csv(output_path, index=False)
+    print(f"Tabla {i+1} guardada en {output_path}")

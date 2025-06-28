@@ -1,0 +1,31 @@
+
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: pdfdata
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  mongo:
+    image: mongo:6
+    ports:
+      - "27017:27017"
+
+  app:
+    build: ./backend
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres
+      - mongo
+
+volumes:
+  pgdata:

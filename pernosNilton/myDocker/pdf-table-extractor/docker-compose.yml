@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  app:
+    build: ./app
+    container_name: java_pdf_extractor
+    depends_on:
+      - mongodb
+      - postgres
+    volumes:
+      - ./pdfs:/data/pdfs
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/pdfdata
+      - POSTGRES_URI=jdbc:postgresql://postgres:5432/pdfdata
+    command: ["java", "-cp", "app.jar", "com.example.pdfextractor.Main"]
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongo
+    ports:
+      - "27017:27017"
+
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: pdfdata
+    ports:
+      - "5432:5432"

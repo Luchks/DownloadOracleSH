@@ -1,0 +1,9 @@
+
+version: '3.8'
+
+services:
+  lector-pdf:
+    build: .
+    container_name: lector_pdf_java
+    volumes:
+      - ./documento.pdf:/app/documento.pdf

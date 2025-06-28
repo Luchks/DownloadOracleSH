@@ -1,0 +1,30 @@
+import java.io.File;
+import java.io.FileInputStream;
+import java.util.List;
+
+import org.apache.pdfbox.pdmodel.PDDocument;
+
+import technology.tabula.ObjectExtractor;
+import technology.tabula.Page;
+import technology.tabula.Table;
+import technology.tabula.extractors.SpreadsheetExtractionAlgorithm;
+
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        File pdf = new File("pdfs/archivo.pdf");
+        FileInputStream fis = new FileInputStream(pdf);
+
+        ObjectExtractor extractor = new ObjectExtractor(PDDocument.load(fis));
+        Page page = extractor.extract(1);
+
+        SpreadsheetExtractionAlgorithm sea = new SpreadsheetExtractionAlgorithm();
+        List<Table> tables = sea.extract(page);
+
+        for (Table table : tables) {
+            System.out.println(table.toString());
+        }
+
+        fis.close();
+    }
+}
