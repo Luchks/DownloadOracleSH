@@ -1,0 +1,4 @@
+com/ejemplo/ui/PersonaApp.class
+com/ejemplo/modelo/Persona.class
+com/ejemplo/Main.class
+com/ejemplo/dao/PersonaDAO.class

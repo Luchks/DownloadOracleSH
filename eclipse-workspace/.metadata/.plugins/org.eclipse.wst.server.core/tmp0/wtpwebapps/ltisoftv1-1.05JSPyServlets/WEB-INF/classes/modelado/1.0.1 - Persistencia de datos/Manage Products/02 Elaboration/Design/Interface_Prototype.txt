@@ -1,0 +1,59 @@
+=========================================
+Sistema de Ventas "Comercial Don Marco"
+=========================================
+Menú de opciones
+1. Ingreso de Productos
+2. Edición de Productos
+3. Eliminación de Productos
+4. Reporte de Productos 
+5. Salir del Sistema
+
+
+--------------------------------------------
+Ingreso de Productos
+--------------------------------------------
+Empleado 1
+DNI: 44035667
+Nombre: Juan
+Email: juan@yopmail.com
+¿Deseas Seguir Registrando un empleado? S
+
+Empleado 2
+DNI: 44035177
+Nombre: Maria
+Email: maria@yopmail.com 
+
+--------------------------------------------
+Edición de Productos
+--------------------------------------------
+“Si desea modificar el valor en algún atributo, ingréselo, 
+caso contrario presione ENTER para mantener su valor”
+Ingrese el código del producto a modificar:
+Codigo: 001
+Producto Encontrado:
+Codigo Actual: 001
+Codigo Nuevo: 
+Nombre Actual: Galleta Soda Field Paq 6 uni
+Nombre Nuevo: Galleta Soda Victoria Paq 6 uni
+Precio Actual: 2.5
+Precio Nuevo: 2.3
+¿Desea continuar modificando más registros?
+
+--------------------------------------------
+Eliminación de Productos
+--------------------------------------------
+Ingrese el código del producto a eliminar:
+Codigo: 001
+Producto Eliminado Satisfactoriamente 
+¿Desea continuar eliminando más registros? S
+
+--------------------------------------------
+Reporte de Productos
+--------------------------------------------
+002 – Gaseosa Coca Cola 2.25 Lt (S/ 7.5) 
+003 – Galleta Margarita Uni (S/ 0.5) 
+
+PANTALLA SALIR DEL SISTEMA:
+--------------------------------------------
+Fin del Programa
+--------------------------------------------

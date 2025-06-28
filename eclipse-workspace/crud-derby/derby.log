@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Jun 27 15:48:55 PET 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0197-b326-84d3-000011994d48 
+on database directory /home/luchks/eclipse-workspace/crud-derby/miBD with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/home/luchks/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Arch Linux
+java.runtime.version=1.8.0_452-b09
+user.dir=/home/luchks/eclipse-workspace/crud-derby
+os.name=Linux
+os.arch=amd64
+os.version=6.15.3-arch1-1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.limatisoft.base.repository.ProductRepository"/>
+    <fullyQualifiedTypeName name="com.limatisoft.base.model.ProductType"/>
+    <fullyQualifiedTypeName name="com.limatisoft.base.repository.jdbc.ProductTypeJdbcRepository"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.limatisoft.base.model.Product"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.HashAttributeSet"/>
+</qualifiedTypeNameHistroy>

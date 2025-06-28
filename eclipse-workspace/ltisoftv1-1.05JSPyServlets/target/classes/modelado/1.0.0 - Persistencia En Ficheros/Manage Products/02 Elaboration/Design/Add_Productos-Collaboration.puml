@@ -1,0 +1,26 @@
+@startuml
+allowmixing
+
+actor User
+
+package "com.limatisoft.base.ui.console" {
+    class AddProductConsole
+}
+
+package "com.limatisoft.basea.controller" {
+    class ProductQueryService
+    class ProductCommandService
+}
+
+package "com.limatisoft.base.repository" {
+    class ProductFileRepository
+}
+
+User -> AddProductConsole : addProduct()
+AddProductConsole -> ProductQueryService : checkCodeNoExists()
+ProductQueryService -> ProductFileRepository : checkCodeNoExists()
+AddProductConsole -> ProductCommandService : saveProduct()
+ProductCommandService -> ProductFileRepository : saveProduct()
+
+
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+package "base System" {
+ 	package "com.limatisoft.base" {
+    }
+    
+    package "com.limatisoft.base.ui.console" {
+    }
+    
+    package "com.limatisoft.base.service" {
+    }
+
+    package "com.limatisoft.base.model" {
+    }
+
+    package "com.limatisoft.base.repository" {
+      	package "com.limatisoft.base.repository.file" {
+		}
+  	   	package "com.limatisoft.base.repository.jdbc" {
+    	}
+    }
+    
+    "com.limatisoft.base" --> "com.limatisoft.base.ui.console"
+    "com.limatisoft.base.ui.console" --> "com.limatisoft.base.service" 
+    "com.limatisoft.base.service" --> "com.limatisoft.base.repository"
+}
+@enduml

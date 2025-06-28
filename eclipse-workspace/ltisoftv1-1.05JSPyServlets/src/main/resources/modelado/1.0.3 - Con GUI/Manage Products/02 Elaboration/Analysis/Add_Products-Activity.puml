@@ -1,0 +1,9 @@
+@startuml
+start
+:User selects "Add Product";
+:Prompt for Product Details;
+:Enter Product Details;
+:Save Product to File;
+:Display Success Message;
+stop
+@enduml

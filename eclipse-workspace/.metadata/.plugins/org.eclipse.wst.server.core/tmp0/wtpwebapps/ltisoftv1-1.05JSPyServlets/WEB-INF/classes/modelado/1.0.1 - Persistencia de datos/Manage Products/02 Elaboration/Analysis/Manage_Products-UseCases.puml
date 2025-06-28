@@ -1,0 +1,20 @@
+@startuml
+actor "Employee" as employee
+actor "Administrator" as admin
+
+rectangle SalesSystem {
+    usecase "Add Products" as UC1
+    usecase "Edit Products" as UC2
+    usecase "Delete Products" as UC3
+    usecase "View Product Report" as UC4
+    usecase "Exit System" as UC5
+}
+
+employee --> UC1 : Select Option
+employee --> UC2 : Select Option
+employee --> UC3 : Select Option
+employee --> UC4 : Select Option
+employee --> UC5 : Select Option
+
+admin --> UC4 : View Report
+@enduml

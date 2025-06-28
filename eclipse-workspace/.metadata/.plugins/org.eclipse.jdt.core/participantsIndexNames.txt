@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+/home/luchks/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2755320252.index
+/ltisoftv1-1.05JSPyServlets/src/main/java
+/home/luchks/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1850972580.index
+/ltisoftv1-1.05JSPyServlets/src/main/java
+/home/luchks/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/663997303.index
+/ltisoftv1-1.05JSPyServlets/src/main/java
+/home/luchks/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3298639317.index
+/ltisoftv1-1.05JSPyServlets/src/main/java

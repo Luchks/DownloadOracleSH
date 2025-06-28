@@ -1,0 +1,7 @@
+	@startuml
+start
+:User selects "View Product Report";
+:Load Products from File;
+:Display Report;
+stop
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+start
+:User selects "Edit Product";
+:Search Product in File;
+if (Product Found?) then (yes)
+    :Display Product Data;
+    :User Updates Product Data;
+    :Save Updated Product to File;
+    :Display Success Message;
+else (no)
+    :Show Error Message;
+endif
+stop
+@enduml

@@ -1,0 +1,468 @@
+2025-06-05 11:46:01,659 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-06-05 11:48:58,219 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-05 11:54:05,920 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-05 12:01:51,149 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.5/maven-archetype-quickstart-1.5.pom
+2025-06-05 12:01:51,155 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.5/maven-archetype-quickstart-1.5.pom
+2025-06-05 12:01:51,172 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/1.5/maven-archetype-bundles-1.5.pom
+2025-06-05 12:01:51,174 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/1.5/maven-archetype-bundles-1.5.pom
+2025-06-05 12:01:51,182 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/43/maven-parent-43.pom
+2025-06-05 12:01:51,186 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/43/maven-parent-43.pom
+2025-06-05 12:01:51,211 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.3/junit-bom-5.10.3.pom
+2025-06-05 12:01:51,212 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.3/junit-bom-5.10.3.pom
+2025-06-05 12:01:51,226 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.5/maven-archetype-quickstart-1.5.jar
+2025-06-05 12:01:51,227 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.5/maven-archetype-quickstart-1.5.jar
+2025-06-05 12:06:43,495 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013 [634])
+2025-06-05 12:06:43,496 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013
+2025-06-05 12:06:43,496 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/aopalliance-1.0.jar
+2025-06-05 12:06:43,496 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/guice-5.1.0.jar
+2025-06-05 12:06:43,496 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/httpclient-4.5.14.jar
+2025-06-05 12:06:43,496 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/httpcore-4.4.16.jar
+2025-06-05 12:06:43,496 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/jansi-2.4.1.jar
+2025-06-05 12:06:43,496 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/jcl-over-slf4j-1.7.36.jar
+2025-06-05 12:06:43,496 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-artifact-3.9.9.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-builder-support-3.9.9.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-compat-3.9.9.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-core-3.9.9.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-embedder-3.9.9.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-model-3.9.9.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-model-builder-3.9.9.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-plugin-api-3.9.9.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-repository-metadata-3.9.9.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-resolver-api-1.9.22.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-resolver-connector-basic-1.9.22.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-resolver-impl-1.9.22.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-resolver-named-locks-1.9.22.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-resolver-provider-3.9.9.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-resolver-spi-1.9.22.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-resolver-transport-file-1.9.22.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-resolver-transport-http-1.9.22.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-resolver-transport-wagon-1.9.22.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-resolver-util-1.9.22.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-settings-3.9.9.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-settings-builder-3.9.9.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/maven-shared-utils-3.4.2.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/plexus-build-api-0.0.7.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/plexus-build-api-1.2.0.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/plexus-cipher-2.0.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/plexus-classworlds-2.8.0.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/plexus-component-annotations-2.1.0.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/plexus-interpolation-1.27.jar
+2025-06-05 12:06:43,497 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/plexus-sec-dispatcher-2.0.jar
+2025-06-05 12:06:43,498 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/plexus-utils-3.5.1.jar
+2025-06-05 12:06:43,498 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/plexus-xml-3.0.1.jar
+2025-06-05 12:06:43,498 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/wagon-file-3.5.3.jar
+2025-06-05 12:06:43,498 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/wagon-http-3.5.3.jar
+2025-06-05 12:06:43,498 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/wagon-http-shared-3.5.3.jar
+2025-06-05 12:06:43,498 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013/jars/wagon-provider-api-3.5.3.jar
+2025-06-05 12:06:43,498 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.4.8.jre [1009])
+2025-06-05 12:06:43,498 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/com.google.guava_33.4.8.jre.jar
+2025-06-05 12:06:43,498 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.17 [1381])
+2025-06-05 12:06:43,498 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/slf4j.api_2.0.17.jar
+2025-06-05 12:06:43,498 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [34])
+2025-06-05 12:06:43,499 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-06-05 12:06:43,499 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [1014])
+2025-06-05 12:06:43,499 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/javax.annotation_1.3.5.v20200909-1856.jar
+2025-06-05 12:06:43,499 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [74])
+2025-06-05 12:06:43,499 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.apache.commons.cli_1.9.0.jar
+2025-06-05 12:06:43,499 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [76])
+2025-06-05 12:06:43,499 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/org.apache.commons.commons-codec_1.16.0.jar
+2025-06-05 12:06:43,499 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.3 [1010])
+2025-06-05 12:06:43,499 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /home/luchks/.p2/pool/plugins/com.google.guava.failureaccess_1.0.3.jar
+2025-06-05 12:06:43,501 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/tmp/m2e-archetypeGenerator8546176820399332991":
+2025-06-05 12:06:43,503 [Worker-3: Launching mavenrun-e48ddf98-5606-4013-8afa-5bc69203653b] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DjavaCompilerVersion=17 -DjunitVersion=5.11.0 -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DgroupId=com.luchks.prueba -DartifactId=prueba -Dversion=0.0.1-SNAPSHOT -Dpackage=com.luchks.prueba -DoutputDirectory=/home/luchks/eclipse-workspace -Dstyle.color=always -U archetype:generate
+2025-06-05 12:07:05,387 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/luchks/eclipse-workspace/prueba/pom.xml
+2025-06-05 12:07:05,557 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.4.0/maven-clean-plugin-3.4.0.jar
+2025-06-05 12:07:05,559 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.4.0/maven-clean-plugin-3.4.0.jar
+2025-06-05 12:07:05,573 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.3.0/maven-surefire-plugin-3.3.0.jar
+2025-06-05 12:07:05,574 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.3.0/maven-surefire-plugin-3.3.0.jar
+2025-06-05 12:07:05,581 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.4.2/maven-jar-plugin-3.4.2.jar
+2025-06-05 12:07:05,582 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.4.2/maven-jar-plugin-3.4.2.jar
+2025-06-05 12:07:05,748 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.luchks.prueba:prueba:0.0.1-SNAPSHOT @ /home/luchks/eclipse-workspace/prueba/pom.xml.
+2025-06-05 12:07:05,759 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.pom
+2025-06-05 12:07:05,760 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.pom
+2025-06-05 12:07:05,768 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.pom
+2025-06-05 12:07:05,768 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.pom
+2025-06-05 12:07:05,777 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.pom
+2025-06-05 12:07:05,777 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.pom
+2025-06-05 12:07:05,785 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
+2025-06-05 12:07:05,786 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
+2025-06-05 12:07:05,793 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.pom
+2025-06-05 12:07:05,794 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.pom
+2025-06-05 12:07:05,802 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar
+2025-06-05 12:07:05,810 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar
+2025-06-05 12:07:05,814 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar
+2025-06-05 12:07:05,818 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar
+2025-06-05 12:07:05,826 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar
+2025-06-05 12:07:05,826 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+2025-06-05 12:07:05,828 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar
+2025-06-05 12:07:05,828 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+2025-06-05 12:07:05,828 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar
+2025-06-05 12:07:05,850 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar
+2025-06-05 12:07:05,918 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.3.0/maven-surefire-plugin-3.3.0.pom
+2025-06-05 12:07:05,919 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.3.0/maven-surefire-plugin-3.3.0.pom
+2025-06-05 12:07:05,926 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.3.0/surefire-3.3.0.pom
+2025-06-05 12:07:05,927 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.3.0/surefire-3.3.0.pom
+2025-06-05 12:07:05,940 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.4.2/maven-jar-plugin-3.4.2.pom
+2025-06-05 12:07:05,941 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.4.2/maven-jar-plugin-3.4.2.pom
+2025-06-05 12:07:06,183 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /prueba/src/main/java
+2025-06-05 12:07:06,184 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /prueba/src/main/resources
+2025-06-05 12:07:06,185 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /prueba/src/test/java
+2025-06-05 12:07:06,186 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /prueba/src/test/resources
+2025-06-05 12:07:06,465 [Worker-21: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2025-06-05 12:07:06,918 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/main/resources
+2025-06-05 12:07:06,920 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/test/resources
+2025-06-05 12:07:07,174 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0-sources.jar
+2025-06-05 12:07:07,196 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0-sources.jar
+2025-06-05 12:07:07,197 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.11.0
+2025-06-05 12:07:07,213 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0-sources.jar
+2025-06-05 12:07:07,214 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0-sources.jar
+2025-06-05 12:07:07,215 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.opentest4j:opentest4j:1.3.0
+2025-06-05 12:07:07,234 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0-sources.jar
+2025-06-05 12:07:07,241 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0-sources.jar
+2025-06-05 12:07:07,242 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.11.0
+2025-06-05 12:07:07,257 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-sources.jar
+2025-06-05 12:07:07,258 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-sources.jar
+2025-06-05 12:07:07,259 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apiguardian:apiguardian-api:1.1.2
+2025-06-05 12:07:07,275 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0-sources.jar
+2025-06-05 12:07:07,280 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0-sources.jar
+2025-06-05 12:07:07,281 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-params:5.11.0
+2025-06-07 09:03:29,402 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-06-07 10:57:15,382 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 14:34:48,310 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-06-24 14:36:48,959 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 14:45:10,528 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 14:45:42,276 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 14:47:04,707 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 14:55:26,354 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.3.1/maven-war-plugin-3.3.1.jar
+2025-06-24 14:55:26,372 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.3.1/maven-war-plugin-3.3.1.jar
+2025-06-24 14:55:26,576 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: limatisoft:ltisoftv1-1.05JSPyServlets:0.0.1-SNAPSHOT @ /home/luchks/eclipse-workspace/ltisoftv1-1.05JSPyServlets/pom.xml.
+2025-06-24 14:55:26,587 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/formdev/flatlaf/2.5/flatlaf-2.5.pom
+2025-06-24 14:55:26,588 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/formdev/flatlaf/2.5/flatlaf-2.5.pom
+2025-06-24 14:55:26,595 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.4/postgresql-42.7.4.pom
+2025-06-24 14:55:26,596 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.4/postgresql-42.7.4.pom
+2025-06-24 14:55:26,602 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom
+2025-06-24 14:55:26,602 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom
+2025-06-24 14:55:26,609 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom
+2025-06-24 14:55:26,610 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom
+2025-06-24 14:55:26,616 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.pom
+2025-06-24 14:55:26,618 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.pom
+2025-06-24 14:55:26,625 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.7/project-1.0.7.pom
+2025-06-24 14:55:26,627 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.7/project-1.0.7.pom
+2025-06-24 14:55:26,634 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.pom
+2025-06-24 14:55:26,635 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.pom
+2025-06-24 14:55:26,644 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.pom
+2025-06-24 14:55:26,645 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.pom
+2025-06-24 14:55:26,654 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.pom
+2025-06-24 14:55:26,655 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.pom
+2025-06-24 14:55:26,663 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.0/jakarta.servlet.jsp-api-3.1.0.pom
+2025-06-24 14:55:26,664 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.0/jakarta.servlet.jsp-api-3.1.0.pom
+2025-06-24 14:55:26,674 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/formdev/flatlaf/2.5/flatlaf-2.5.jar
+2025-06-24 14:55:26,690 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/formdev/flatlaf/2.5/flatlaf-2.5.jar
+2025-06-24 14:55:26,696 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+2025-06-24 14:55:26,702 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+2025-06-24 14:55:26,706 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.jar
+2025-06-24 14:55:26,708 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.4/postgresql-42.7.4.jar
+2025-06-24 14:55:26,708 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar
+2025-06-24 14:55:26,709 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.jar
+2025-06-24 14:55:26,710 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar
+2025-06-24 14:55:26,710 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.jar
+2025-06-24 14:55:26,714 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.jar
+2025-06-24 14:55:26,718 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.jar
+2025-06-24 14:55:26,732 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.0/jakarta.servlet.jsp-api-3.1.0.jar
+2025-06-24 14:55:26,738 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar
+2025-06-24 14:55:26,738 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.0/jakarta.servlet.jsp-api-3.1.0.jar
+2025-06-24 14:55:26,744 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar
+2025-06-24 14:55:26,816 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.4/postgresql-42.7.4.jar
+2025-06-24 14:55:26,816 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.jar
+2025-06-24 14:55:26,903 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.3.1/maven-war-plugin-3.3.1.pom
+2025-06-24 14:55:26,904 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.3.1/maven-war-plugin-3.3.1.pom
+2025-06-24 14:55:27,048 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.pom
+2025-06-24 14:55:27,048 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.pom
+2025-06-24 14:55:27,070 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.0/plexus-archiver-4.2.0.pom
+2025-06-24 14:55:27,071 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.0/plexus-archiver-4.2.0.pom
+2025-06-24 14:55:27,078 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.pom
+2025-06-24 14:55:27,079 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.pom
+2025-06-24 14:55:27,086 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.pom
+2025-06-24 14:55:27,087 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.pom
+2025-06-24 14:55:27,100 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.19/commons-compress-1.19.pom
+2025-06-24 14:55:27,102 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.19/commons-compress-1.19.pom
+2025-06-24 14:55:27,108 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/48/commons-parent-48.pom
+2025-06-24 14:55:27,109 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/48/commons-parent-48.pom
+2025-06-24 14:55:27,121 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.pom
+2025-06-24 14:55:27,122 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.pom
+2025-06-24 14:55:27,128 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.pom
+2025-06-24 14:55:27,128 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.pom
+2025-06-24 14:55:27,135 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.pom
+2025-06-24 14:55:27,136 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.pom
+2025-06-24 14:55:27,141 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.1/plexus-6.1.pom
+2025-06-24 14:55:27,142 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.1/plexus-6.1.pom
+2025-06-24 14:55:27,149 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.pom
+2025-06-24 14:55:27,150 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.pom
+2025-06-24 14:55:27,160 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom
+2025-06-24 14:55:27,161 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom
+2025-06-24 14:55:27,168 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.pom
+2025-06-24 14:55:27,169 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.pom
+2025-06-24 14:55:27,175 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom
+2025-06-24 14:55:27,175 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom
+2025-06-24 14:55:27,182 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/25/maven-parent-25.pom
+2025-06-24 14:55:27,183 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/25/maven-parent-25.pom
+2025-06-24 14:55:27,192 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+2025-06-24 14:55:27,193 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+2025-06-24 14:55:27,200 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+2025-06-24 14:55:27,200 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+2025-06-24 14:55:27,206 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/9/apache-9.pom
+2025-06-24 14:55:27,207 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/9/apache-9.pom
+2025-06-24 14:55:27,223 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom
+2025-06-24 14:55:27,224 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom
+2025-06-24 14:55:27,229 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom
+2025-06-24 14:55:27,229 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom
+2025-06-24 14:55:27,242 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom
+2025-06-24 14:55:27,243 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom
+2025-06-24 14:55:27,251 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.pom
+2025-06-24 14:55:27,252 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.pom
+2025-06-24 14:55:27,258 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/22/maven-shared-components-22.pom
+2025-06-24 14:55:27,259 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/22/maven-shared-components-22.pom
+2025-06-24 14:55:27,266 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27.pom
+2025-06-24 14:55:27,267 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27.pom
+2025-06-24 14:55:27,281 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom
+2025-06-24 14:55:27,282 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom
+2025-06-24 14:55:27,289 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.pom
+2025-06-24 14:55:27,289 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.pom
+2025-06-24 14:55:27,302 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.jar
+2025-06-24 14:55:27,303 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.jar
+2025-06-24 14:55:27,307 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar
+2025-06-24 14:55:27,308 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar
+2025-06-24 14:55:27,311 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar
+2025-06-24 14:55:27,311 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar
+2025-06-24 14:55:27,311 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.jar
+2025-06-24 14:55:27,311 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar
+2025-06-24 14:55:27,317 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.jar
+2025-06-24 14:55:27,321 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+2025-06-24 14:55:27,321 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+2025-06-24 14:55:27,325 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.jar
+2025-06-24 14:55:27,326 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.jar
+2025-06-24 14:55:27,333 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar
+2025-06-24 14:55:27,333 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar
+2025-06-24 14:55:27,338 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar
+2025-06-24 14:55:27,623 [Worker-30: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ltisoftv1-1.05JSPyServlets/src/main/java
+2025-06-24 14:55:27,624 [Worker-30: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ltisoftv1-1.05JSPyServlets/src/main/resources
+2025-06-24 14:55:27,625 [Worker-30: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ltisoftv1-1.05JSPyServlets/src/test/java
+2025-06-24 14:55:27,625 [Worker-30: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ltisoftv1-1.05JSPyServlets/src/test/resources
+2025-06-24 14:55:27,994 [Worker-30: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-06-24 14:55:28,522 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/formdev/flatlaf/2.5/flatlaf-2.5-sources.jar
+2025-06-24 14:55:28,537 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/formdev/flatlaf/2.5/flatlaf-2.5-sources.jar
+2025-06-24 14:55:28,538 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.formdev:flatlaf:2.5
+2025-06-24 14:55:28,559 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.4/postgresql-42.7.4-sources.jar
+2025-06-24 14:55:28,585 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.4/postgresql-42.7.4-sources.jar
+2025-06-24 14:55:28,587 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.postgresql:postgresql:42.7.4
+2025-06-24 14:55:28,604 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0-sources.jar
+2025-06-24 14:55:28,613 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0-sources.jar
+2025-06-24 14:55:28,614 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.checkerframework:checker-qual:3.42.0
+2025-06-24 14:55:28,630 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.8.2/junit-4.8.2-sources.jar
+2025-06-24 14:55:28,638 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.8.2/junit-4.8.2-sources.jar
+2025-06-24 14:55:28,639 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.8.2
+2025-06-24 14:55:28,656 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0-sources.jar
+2025-06-24 14:55:28,670 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0-sources.jar
+2025-06-24 14:55:28,671 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.servlet:jakarta.servlet-api:6.0.0
+2025-06-24 14:55:28,688 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0-sources.jar
+2025-06-24 14:55:28,692 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0-sources.jar
+2025-06-24 14:55:28,693 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0
+2025-06-24 14:55:28,767 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-24 14:55:28,797 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-24 14:55:28,800 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0-sources.jar
+2025-06-24 14:55:28,806 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0-sources.jar
+2025-06-24 14:55:28,807 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.el:jakarta.el-api:5.0.0
+2025-06-24 14:55:28,826 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1-sources.jar
+2025-06-24 14:55:28,852 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1-sources.jar
+2025-06-24 14:55:28,854 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1
+2025-06-24 14:55:28,907 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.0/jakarta.servlet.jsp-api-3.1.0-sources.jar
+2025-06-24 14:55:28,912 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.0/jakarta.servlet.jsp-api-3.1.0-sources.jar
+2025-06-24 14:55:28,913 [Worker-34: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.servlet.jsp:jakarta.servlet.jsp-api:3.1.0
+2025-06-24 14:55:29,433 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/main/resources
+2025-06-24 14:55:29,438 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/test/resources
+2025-06-24 14:59:00,952 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-06-24 14:59:00,954 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-24 16:13:39,990 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 17:17:39,213 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 17:17:55,324 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-24 17:17:55,369 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-24 17:17:56,390 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/main/resources
+2025-06-24 17:17:56,394 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/test/resources
+2025-06-24 17:26:36,223 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-06-24 17:26:36,226 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-24 17:31:05,888 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 17:32:13,746 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 17:35:24,113 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 17:36:08,241 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 17:53:04,402 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 17:57:01,535 [Worker-23: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 17:58:03,373 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-24 17:58:03,411 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-24 17:58:04,119 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/main/resources
+2025-06-24 17:58:04,123 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/test/resources
+2025-06-24 17:59:24,056 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 22:16:43,705 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 22:19:30,344 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-24 22:26:54,948 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-25 19:27:07,728 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-06-25 19:31:38,948 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-25 19:31:38,978 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-25 19:31:39,797 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/main/resources
+2025-06-25 19:31:39,801 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/test/resources
+2025-06-25 19:31:47,674 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-25 19:31:47,678 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 08:19:27,733 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-26 15:20:12,733 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-26 15:20:43,182 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 15:20:43,202 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-26 15:20:43,941 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/main/resources
+2025-06-26 15:20:43,944 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/test/resources
+2025-06-26 15:25:52,561 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 15:25:52,564 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 15:27:44,072 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 15:27:44,076 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 15:29:09,355 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 15:29:09,359 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 15:32:39,968 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 15:32:39,971 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 15:33:10,148 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 15:33:10,153 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-26 15:36:17,223 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 15:36:17,226 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 15:37:12,668 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 15:37:12,670 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 15:37:50,665 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 15:37:50,668 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 15:39:04,537 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 15:39:04,540 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 15:39:39,601 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 15:39:39,604 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 15:58:16,123 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 15:58:16,126 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 16:24:15,078 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 16:24:15,083 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 16:31:37,831 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 16:31:37,835 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 16:33:05,996 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 16:33:06,000 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 16:42:34,273 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 16:42:34,278 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 16:44:25,249 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 16:44:25,252 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 16:46:00,460 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-26 16:46:00,464 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 16:50:54,559 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-06-26 16:50:54,567 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 16:54:32,874 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-06-26 16:54:32,877 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-26 17:15:00,760 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-26 21:10:04,073 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-06-27 16:46:32,998 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-27 16:46:33,015 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-27 16:46:34,036 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-27 16:46:34,052 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-27 16:46:51,576 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-27 16:46:51,585 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-27 16:47:04,856 [Worker-16: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-27 16:47:41,045 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-27 16:50:50,624 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-27 16:50:50,646 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-27 16:51:33,907 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-27 17:03:15,154 [Worker-35: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: start tag unexpected character < (position: START_DOCUMENT seen .../4.0.0"\r\n\txmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\r\n<... @3:2) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: start tag unexpected character < (position: START_DOCUMENT seen .../4.0.0"\r\n\txmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\r\n<... @3:2) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseStartTag(MXParser.java:2286)
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseProlog(MXParser.java:1871)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1757)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:627)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2025-06-27 17:05:16,275 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-27 17:05:16,437 [Worker-7: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/luchks/eclipse-workspace/ltisoftv1-1.05JSPyServlets/pom.xml: start tag unexpected character < (position: START_DOCUMENT seen .../4.0.0"\r\n\txmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\r\n<... @3:2)  @ line 3, column 2
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/luchks/eclipse-workspace/ltisoftv1-1.05JSPyServlets/pom.xml: start tag unexpected character < (position: START_DOCUMENT seen .../4.0.0"\r\n\txmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\r\n<... @3:2)  @ line 3, column 2
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-06-27 17:12:59,990 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: limatisoft:ltisoftv1-1.05JSPyServlets:0.0.1-SNAPSHOT @ /home/luchks/eclipse-workspace/ltisoftv1-1.05JSPyServlets/pom.xml.
+2025-06-27 17:13:00,644 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-27 17:13:00,686 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-27 17:13:00,688 [Worker-31: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ltisoftv1-1.05JSPyServlets
+2025-06-27 17:13:00,689 [Worker-31: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ltisoftv1-1.05JSPyServlets
+2025-06-27 17:13:01,335 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-27 17:13:01,348 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-27 17:13:01,572 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/main/resources
+2025-06-27 17:13:01,576 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/test/resources
+2025-06-27 17:19:33,696 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-27 17:19:33,701 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-27 17:23:52,056 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-06-27 17:23:52,058 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2025-06-27 17:50:34,478 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-27 17:51:06,210 [Worker-5: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: limatisoft:ltisoftv1-1.05JSPyServlets:0.0.1-SNAPSHOT @ /home/luchks/eclipse-workspace/ltisoftv1-1.05JSPyServlets/pom.xml.
+2025-06-27 17:51:06,590 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-27 17:51:06,604 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-27 17:51:06,606 [Worker-5: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ltisoftv1-1.05JSPyServlets
+2025-06-27 17:51:06,606 [Worker-5: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ltisoftv1-1.05JSPyServlets
+2025-06-27 17:51:07,334 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-27 17:51:07,344 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-27 18:10:45,037 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-27 18:13:25,400 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-27 18:14:47,498 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-27 18:14:47,525 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-27 18:14:48,169 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/main/resources
+2025-06-27 18:14:48,172 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/test/resources
+2025-06-27 18:15:01,353 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-27 18:17:00,557 [Worker-29: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 76 resources from src/main/resources to target/classes
+2025-06-27 18:17:00,576 [Worker-29: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2025-06-27 18:17:01,027 [Worker-29: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/main/resources
+2025-06-27 18:17:01,032 [Worker-29: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/luchks/eclipse-workspace/prueba/src/test/resources
+2025-06-27 18:17:50,781 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-27 18:30:32,022 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-27 19:00:48,982 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-27 20:19:22,017 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
