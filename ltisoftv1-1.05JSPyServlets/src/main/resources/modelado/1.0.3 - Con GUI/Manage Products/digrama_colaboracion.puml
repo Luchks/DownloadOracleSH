@@ -1,0 +1,10 @@
+@startuml
+object "AddProductScreen" as addProductScreen
+object "ProductController" as productController
+object "Product" as product
+object "FilePersistence" as filePersistence
+
+addProductScreen -> productController : addProduct()
+productController -> product : createProduct()
+productController -> filePersistence : save(product)
+@enduml

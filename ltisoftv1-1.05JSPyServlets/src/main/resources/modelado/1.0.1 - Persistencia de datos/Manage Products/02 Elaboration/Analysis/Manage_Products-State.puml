@@ -1,0 +1,23 @@
+@startuml
+[*] --> Idle
+
+Idle --> AddingProduct : Add Product
+AddingProduct --> SavingToFile : Save to File
+SavingToFile --> Idle : Product Saved
+
+Idle --> SearchingInFile : Search Product
+SearchingInFile --> EditingProduct : Product Found
+EditingProduct --> SavingToFile : Save Edits to File
+SavingToFile --> Idle : Edits Saved
+
+Idle --> SearchingInFile : Search Product
+SearchingInFile --> DeletingProduct : Product Found
+DeletingProduct --> SavingToFile : Save Deletion to File
+SavingToFile --> Idle : Product Deleted
+
+Idle --> ViewingReport : Load Report from File
+ViewingReport --> Idle : Return to Menu
+
+Idle --> ExitingSystem : Exit System
+ExitingSystem --> [*]
+@enduml

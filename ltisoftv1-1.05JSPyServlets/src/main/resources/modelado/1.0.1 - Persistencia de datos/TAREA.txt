@@ -1,0 +1,22 @@
+Desarrollar en clase las siguientes actividades:
+
+1. Ajustar el sistema para que haga lo que se plantea en el diagrama: 
+System-Classes-fuerte-acoplamiento-service-y-repository.puml, es decir
+que funcione con Base de datos en lugar de fichero de datos. 
+Los paquetes y clases para la gestion de base de datos de Product ya están
+creadas en el proyecto.
+
+2. Desacoplar la capa de servicio(service) y de acceso a datos(repository),
+aplicar el planteamiento del diagrama: System-Classes-bajo-acoplamiento.puml
+Técnica para desacoplar totalmente una clase con otra.
+Fase 1) Reducir acoplamiento
+1) Si hay referencias en los metodos de la otra clase, quitarlas y colocarlas todo como un atributo de clase
+2) Crear una interface que encapsule todos los metodos de la clase acoplada. La clase acoplada debe implementar la interface creada. El nombre de la interface debe ser genérica y no representar alguna tecnología en específico.
+3) Cambiar el tipo de dato del atributo por la interface creada
+4) Renombrar el nombre del atributo por un nombre genérico que no esté relacionado a la tecnología que se va a implementar.
+
+Fase 2) Eliminar acoplamiento. Lograr acoplamiento 0.
+1) Borrar el new del objeto, dejar solo la declaracion del atributo.
+2) Aplicar inyeccion de dependencia por Seeter al atributo 
+3) La referencia al objeto se debe dar desde la clase responsable de crear el objeto principal que tiene el atributo de tipo interface
+ 

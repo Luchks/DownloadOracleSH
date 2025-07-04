@@ -1,0 +1,62 @@
+spring-clasico-7dias/
+├── dia1-spring-core/
+│   ├── pom.xml
+│   └── src/main/java/com/ejemplo/dia1/
+│       ├── App.java
+│       ├── AppConfig.java
+│       └── SaludoService.java
+│
+├── dia2-inyeccion-dependencias/
+│   ├── pom.xml
+│   └── src/main/java/com/ejemplo/dia2/
+│       ├── App.java
+│       ├── AppConfig.java
+│       ├── PersonaService.java
+│       └── PersonaRepository.java
+│
+├── dia3-jdbc-template/
+│   ├── pom.xml
+│   └── src/main/java/com/ejemplo/dia3/
+│       ├── App.java
+│       ├── AppConfig.java
+│       ├── PersonaDao.java
+│       └── Persona.java
+│
+├── dia4-spring-mvc/
+│   ├── pom.xml
+│   ├── src/main/java/com/ejemplo/dia4/
+│   │   ├── config/
+│   │   │   ├── WebAppInitializer.java
+│   │   │   └── WebMvcConfig.java
+│   │   ├── controller/
+│   │   │   └── PersonaController.java
+│   │   └── model/
+│   │       └── Persona.java
+│   └── src/main/webapp/WEB-INF/views/
+│       └── saludo.jsp
+│
+├── dia5-spring-mybatis/
+│   ├── pom.xml
+│   └── src/main/java/com/ejemplo/dia5/
+│       ├── config/AppConfig.java
+│       ├── mapper/PersonaMapper.java
+│       ├── model/Persona.java
+│       ├── service/PersonaService.java
+│       └── controller/PersonaController.java
+│
+├── dia6-errores-y-capas/
+│   ├── pom.xml
+│   └── src/main/java/com/ejemplo/dia6/
+│       ├── exception/PersonaNoEncontradaException.java
+│       ├── exception/GlobalExceptionHandler.java
+│       └── (mismos paquetes de controller, service, mapper)
+│
+├── dia7-proyecto-final/
+│   ├── pom.xml
+│   ├── src/main/java/com/ejemplo/dia7/
+│   │   ├── config/AppConfig.java
+│   │   ├── controller/PersonaController.java
+│   │   ├── mapper/PersonaMapper.java
+│   │   ├── model/Persona.java
+│   │   └── service/PersonaService.java
+│   └── src/main/resources/application.properties

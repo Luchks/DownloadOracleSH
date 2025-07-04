@@ -1,0 +1,6 @@
+@startuml
+start
+:User selects "Exit System";
+:Terminate Program;
+stop
+@enduml

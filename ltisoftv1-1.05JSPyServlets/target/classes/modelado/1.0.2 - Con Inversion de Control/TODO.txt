@@ -1,0 +1,43 @@
+TAREAS:
+
+1.
+Copiar la clase MainMenuConsole y pegar en el mismo paquete con el nombre ProductMenuConsole
+La clase MainMenuConsole será ahora el menu principal del sistema y no solo la de productos.
+La clase MainMenuConsole debe referenciar a ProductMenuConsole
+El prototipo de MainMenuConsole es:
+
+=========================================
+Sistema de Ventas - 'Comercial Don Marco'
+=========================================
+ 
+=========================================
+Menú de opciones
+1. Productos
+2. Familias de Productos
+3. Salir del Sistema
+Elija una opcion: 
+
+2.
+Renombrar la interface ProductDao por ProductRepository
+
+3.
+Renombrar el atributo productRepository de la clase ProductCommandService por productRepository
+ 
+4. 
+En ProductCommandService aplicar inyección de dependencia por setter a la propiedad  productRepository
+
+5. 
+En ProductQueryService aplicar inyección de dependencia por setter a la propiedad  productRepository
+
+6.
+En las clases AddProductConsole, EditProductConsole, DeleteProductConsoley ProductReportConsole aplicar 
+inyección de dependencias por setter a las propiedades de servicio.
+
+7.
+Enla clase ProductMenuConsole aplicar inyección de dependencia por constructor a las propiedades que
+referencian a las pantallas de gestión.
+
+8.
+Enla clase MainMenuConsole aplicar inyección de dependencia por setter a la propiedad de tipo ProductMenuConsole
+
+
